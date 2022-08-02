@@ -2,8 +2,8 @@
 - [done] Add gradient background (preferably something to do with electrical engineering, linux, notes, or programming)
 - [done] Make the buttons look nice
 - [done] Find a nice font
-- Add a page for the home, project, notes, and Contact. 
-- Be able to scroll down to about me (with button bc it looks nicer and makes the website look good)
+- Add a page for the home [done], project [done], notes [done], and Contact[done]. 
+- Be able to scroll down to about me (with button bc it looks nicer and makes the website look good) [done]
 -->
 
 
@@ -18,14 +18,15 @@
     </head>
 
     <body>
+        
 
         <div class="banner">
             <div class="navbar">
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Projects</a></li>
-                    <li><a href="#">Notes</a></li>
-                    <li><a href="#">Contact Me</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="notes.html">Notes</a></li>
+                    <li><a href="contactme.html">Contact Me</a></li>
                 </ul>
             </div>
 
@@ -35,27 +36,28 @@
                 <br>I hope to get to know more about computer architecture and reverse engineering.</br>
                 <br></br></p>
                 <div>
-                    <button type="button"> <span></span>About me</button>
-                    <button type="button"><span></span>Go to terminal version</button>
+                    <button type="button" onclick="location.href='#aboutme'"> <span></span>About me</button>
+                    <button type="button"><span></span>Go to terminal version (not working right now)</button>
                 </div>
 
             </div>
 
         </div>
 
-        <div class="about">
+        <div class="about" id="aboutme">
 
             <br></br>
             <br></br>
             <br></br>
 
-            <img src="mefr.png" alt="MeFr">
+            <img src="mefrtrans.jpg" alt="MeFr">
 
             <h1> About Me </h1>
             
-            <p> I'm a 13 year old developer. I love Linux, FOSS, and hardware. 
-            <br>I mainly use Rust, C, Assembly (ARM and x86_64), and Java. </br> 
-                Also a fan of D&D and Destiny 2 :)</p>
+            <p> I'm a 13 year old transgender male developer. 
+            <br>I love Linux, FOSS, and hardware. I mainly use Rust, C, 
+              Assembly (ARM and x86_64), and Java. </br> Also a fan of D&D and Destiny 2 :)</p>
+             
 
         </div>
 

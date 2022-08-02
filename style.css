@@ -129,22 +129,35 @@ button:hover{
     padding: 35px 0;
     align-items:center;
     display: inline-block;
-    left: 70px;
+    left: 100px;
     margin: 0 20px;
     position: relative;
+    color:white;
     
 }
 
 .about h1 {
-    font-size: 25px; 
+    font-size: 50px; 
     font-family: monospace;
 }
 
 .about p {
-    font-family: sans-serif;
-    right: 500px;
+    font-family: monospace;
+    font-size: 25px;
+    right: 200px;
 }
 
 .about img {
     float:left;
+}
+
+body {    
+   background:#363F5F;
+   
+
+}
+
+html {
+    height: 100%;
+    scroll-behavior: smooth;  
 }
