@@ -131,6 +131,7 @@ button:hover{
     align-items:center;
     display: inline-block;
     left: 100px;
+    bottom: 200px;
     position: relative;
     color:white;
     
@@ -147,7 +148,7 @@ button:hover{
 
 .about p {
     font-family: monospace;
-    font-size: 25px;
+    font-size: 20px;
     align-items: center;
 }
 
