@@ -6,7 +6,7 @@
 .banner{
     width:100%;
     height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,.75),rgba(0,0,0,.75)),url(background.jpg); 
+    background-image: url(subtle-prism.png); 
     background-size: cover;
     background-position: center;
     -webkit-background-size: cover;
@@ -27,7 +27,7 @@
 .navbar ul li {
     list-style: none;
     display: inline-block;
-    left: 850px;
+    left: 750px;
     margin: 0 20px;
     position: relative;
     font-family: sans-serif;
@@ -125,12 +125,12 @@ button:hover{
 
 .about {
     width:85%;
+    height:100px;
     margin:auto;
     padding: 35px 0;
     align-items:center;
     display: inline-block;
     left: 100px;
-    margin: 0 20px;
     position: relative;
     color:white;
     
@@ -138,13 +138,17 @@ button:hover{
 
 .about h1 {
     font-size: 50px; 
+    align-items: center;
+    display:inline-block;
+    left: 100px;
+    margin: 0 300px;
     font-family: monospace;
 }
 
 .about p {
     font-family: monospace;
     font-size: 25px;
-    right: 200px;
+    align-items: center;
 }
 
 .about img {
@@ -152,7 +156,7 @@ button:hover{
 }
 
 body {    
-   background:#ADB5B5;
+background-image:url(subtle-prism.png); 
 
 }
 
